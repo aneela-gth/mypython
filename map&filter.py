@@ -30,7 +30,7 @@ masked_cards=map(lambda c:"*"*12+c[-4],["1234567890123456", "9876543210987654"])
 print("masked cards:",list(masked_cards))
 
 #8.Filter High Salary Employees
-salary_employees=filter(lambda salary:salary>=40000, [25000, 45000, 60000, 80000])
+salary_employees=filteer(lambda salary:salary>=40000, [25000, 45000, 60000, 80000])
 print("high salary employees:",list(salary_employees))
 
 #9. Format Product Labels:
